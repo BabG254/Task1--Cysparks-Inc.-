@@ -1,0 +1,66 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    text-align: left;
+    width: 150%;
+    margin: auto;
+}
+.input-label, .input-field, .description-field, .dropdown {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 15px; /* Increase the font size */
+    color: #333; /* Change the text color */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+.description-field, .dropdown {
+    padding: 20px; /* Add some padding */
+    border: 1px solid #ccc; /* Add a border */
+    width: 100%; /* Set a specific width */
+}
+.input-field {
+    padding: 10px; /* Reduce padding */
+    border: 1px solid #ccc; /* Add a border */
+    width: 100%; /* Reduce width */
+    height: 30px; /* Set a specific height to match dropdown */
+}
+.dropdown {
+    height: 40px; /* Set a specific height */
+    appearance: none; /* Remove the listing bar */
+    padding: 10px; /* Add some padding to match input-field */
+}
+
+.dropdown {
+    height: 40px; /* Set a specific height */
+    appearance: none; /* Remove the listing bar */
+}
+
+.description-field {
+    height: 60px; /* Set a specific height */
+}
+
+.footer-links a {
+    color: gray;
+    font-weight: bold;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.footer-links a:hover {
+    color: black;
+}
+.social-icons {
+   justify-content:center; 
+   display:flex; 
+   gap:10px; 
+}
+.social-icons a {
+   color: gray;
+}
+.social-icons a:hover {
+   color: black;
+}
